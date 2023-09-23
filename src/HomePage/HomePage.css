@@ -1,0 +1,1650 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.V6 {
+    color: darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.section {
+    min-height: 120vh;
+    background-image: url(first1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+}
+
+.collect {
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1.5rem;
+    margin-left: 10%;
+}
+
+.cold {
+    color: white;
+    font-size: 4.5rem;
+    margin-left: 10%;
+}
+
+.intro {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5%;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 2.5rem;
+
+}
+
+.discover {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10%;
+    transition: .3s;
+}
+
+.discover:hover {
+    color: #00abf0;
+}
+
+@media screen and (max-width:1440px) {
+    .section {
+        min-height: 50vw;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .cold {
+        font-size: 3.0rem;
+    }
+
+    .intro {
+        width: 60%;
+        text-align: center;
+        margin-bottom: 1.8rem;
+    }
+
+    .discover {
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: .3s;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .main {
+        width: 70%;
+        height: auto;
+    }
+
+    .collect {
+        color: white;
+        font-size: 0.5rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 1.5rem;
+        margin-left: 5%;
+        font-weight: bold;
+    }
+
+    .cold {
+        color: white;
+        font-size: 1.8rem;
+        margin-left: 5%;
+    }
+
+    .intro {
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 0.9rem;
+        width: 100%;
+        text-align: center;
+        font-size: 0.8rem;
+        margin-bottom: 0.8rem;
+        text-shadow: 10px 0px 5px black;
+        font-weight: bold;
+    }
+
+    .discover {
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 5%;
+        transition: .3s;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .cold {
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 5%;
+    }
+
+    .intro {
+        font-size: 0.6rem;
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width:321px) {
+    .cold {
+        font-size: 1rem;
+    }
+}
+
+.section1 {
+    min-height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0e0e0e;
+}
+
+.making {
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+.philosophy {
+    flex: 1;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contain {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gold {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    width: 40px;
+    border: 2px solid antiquewhite;
+    border-radius: 40px;
+}
+
+.tag {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 2.0rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content45 {
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+    text-align: center;
+}
+
+.Doker {
+    flex: 12;
+    width: 100%;
+    height: 400px;
+    background-image: url("Discovery.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pndot {
+    width: 45%;
+    height: auto;
+    margin-left: 6.5rem;
+}
+
+.pn1dot {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.pn2dot {
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1.2rem;
+    color: white;
+}
+
+@media screen and (max-width:1024px) {
+    .pndot {
+        width: 50%;
+        margin-left: 4.5rem;
+    }
+
+    .pn1dot {
+        font-size: 2.5rem;
+    }
+
+    .pn2dot {
+        font-size: 1.0rem;
+        margin-top: 0.9rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .contain {
+        height: 250px;
+    }
+
+    .tag {
+        font-size: 1.0rem;
+    }
+
+    .content45 {
+        font-size: 0.8rem;
+    }
+
+    .pndot {
+        width: 50%;
+        margin-left: 3.5rem;
+    }
+
+    .pn1dot {
+        font-size: 2.2rem;
+    }
+
+    .pn2dot {
+        font-size: 0.8rem;
+        margin-top: 0.9rem;
+    }
+}
+
+@media screen and (max-width:426px) {
+
+    .section1 {
+        min-height: auto;
+    }
+
+    .making {
+        font-size: 1.8rem;
+        padding-top: 0rem;
+    }
+
+    .philosophy {
+        flex: 1;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contain {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gold {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img {
+        width: 40px;
+        border: 2px solid antiquewhite;
+        border-radius: 40px;
+    }
+
+    .tag {
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        color: white;
+        font-size: 2.0rem;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .content45 {
+        color: white;
+        font-size: 1.1rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 80%;
+        text-align: center;
+    }
+
+    .pndot {
+        width: 50%;
+        margin-left: 2.5rem;
+    }
+
+    .pn1dot {
+        font-size: 1.2rem;
+        margin-top: 2.5rem;
+    }
+
+    .pn2dot {
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+        margin-bottom: 2.5rem;
+    }
+
+}
+
+@media screen and (max-width:376px) {
+    .contain {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .making {
+        font-size: 1.5rem;
+        padding-top: 0rem;
+    }
+
+    .contain {
+        height: 330px;
+    }
+
+    .Doker {
+        flex: 12;
+        width: 100%;
+        height: 400px;
+        background-image: url("Discovery.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .pndot {
+        width: 90%;
+        margin-left: .5rem;
+    }
+
+    .pn1dot {
+        font-size: 1.2rem;
+        margin-top: 2.5rem;
+    }
+
+    .pn2dot {
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+        margin-bottom: 2.5rem;
+        font-weight: bold;
+    }
+}
+
+.section2 {
+    min-height: 100vh;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered {
+    color: #161616;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.5rem;
+    font-weight: bold;
+}
+
+.dead {
+    width: 10%;
+    position: absolute;
+}
+
+.sunny {
+    width: 30%;
+    height: 180px;
+    position: absolute;
+    left: 12.5rem;
+}
+
+.new {
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.new:hover {
+    color: #00abf0;
+}
+
+.new1 {
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.sunny1 {
+    width: 22%;
+    height: 160px;
+    position: absolute;
+    margin-left: 35.5rem;
+}
+
+.dollar {
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+    padding-left: 1.5rem;
+}
+
+.timing {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.0rem;
+    color: white;
+    padding-left: 0.5rem;
+    padding-top: 1.0rem;
+}
+
+.timing1 {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.9rem;
+    padding-left: 1.0rem;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.novel {
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-left: 1.5rem;
+    text-decoration: none;
+}
+
+.novel:hover {
+    color: #00abf0;
+}
+
+@media screen and (max-width:1440px) {
+    .dead {
+        width: 8%;
+    }
+
+    .timing1 {
+        width: 65%;
+        padding-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .centered {
+        font-size: 10.5rem;
+    }
+
+    .sunny {
+        left: 8.5rem;
+        height: 150px;
+    }
+
+    .new {
+        font-size: 1.2rem;
+    }
+
+    .new1 {
+        font-size: 2.7rem;
+    }
+
+    .sunny1 {
+        margin-left: 25.5rem;
+        height: 150px;
+    }
+
+    .dollar {
+        margin-top: 0.2rem;
+    }
+
+    .timing {
+        width: 70%;
+    }
+
+    .timing1 {
+        width: 70%;
+        font-size: 0.5rem;
+        margin-bottom: 0.8rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .centered {
+        font-size: 7.5rem;
+    }
+
+    .dead {
+        width: 14%;
+    }
+
+    .sunny {
+        left: 5.8rem;
+        height: 120px;
+    }
+
+    .new {
+        font-size: 1.0rem;
+    }
+
+    .new1 {
+        font-size: 2.0rem;
+    }
+
+    .sunny1 {
+        margin-left: 20.5rem;
+        width: 28%;
+        height: 100px;
+    }
+
+    .dollar {
+        font-size: 1.0rem;
+    }
+
+    .timing {
+        width: 70%;
+        font-size: 1.6rem;
+        padding-top: 0.3rem;
+    }
+
+    .timing1 {
+        width: 70%;
+        font-size: 0.3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .novel {
+        font-size: 1.0rem;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .centered {
+        font-size: 4.8rem;
+    }
+
+    .section2 {
+        min-height: 50vh;
+    }
+
+    .dead {
+        width: 12%;
+    }
+
+    .sunny {
+        left: 2.5rem;
+        height: 75px;
+    }
+
+    .new {
+        font-size: 0.5rem;
+    }
+
+    .new1 {
+        font-size: 1.1rem;
+    }
+
+    .sunny1 {
+        margin-left: 11.5rem;
+        width: 35%;
+        height: 90px;
+    }
+
+    .dollar {
+        font-size: 0.8rem;
+    }
+
+    .timing {
+        width: 100%;
+        font-size: 1.1rem;
+        padding-top: 0.3rem;
+    }
+
+    .timing1 {
+        width: 100%;
+        font-size: 0.2rem;
+        margin-right: 0.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .novel {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .centered {
+        font-size: 4.5rem;
+    }
+
+    .timing1 {
+        width: 115%;
+        font-size: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .centered {
+        font-size: 3.8rem;
+    }
+
+    .sunny {
+        left: 2.0rem;
+        height: 70px;
+    }
+
+    .new {
+        font-size: 0.2rem;
+    }
+
+    .new1 {
+        font-size: 0.8rem;
+    }
+
+    .sunny1 {
+        margin-left: 9.5rem;
+        width: 45%;
+        height: 90px;
+    }
+
+    .timing1 {
+        width: 100%;
+    }
+}
+
+.merchant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product {
+    padding: 2.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.various {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.various a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 5.5rem;
+    padding-top: 1.5rem;
+    transition: .3s;
+}
+
+.various a:hover {
+    color: #00abf0;
+}
+
+.variety {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottle {
+    margin-top: 1.0rem;
+    width: 20%;
+    height: 400px;
+    background: #161616;
+    transition: .3s;
+}
+
+.bottle:hover {
+    width: 22%;
+    height: 400px;
+    margin-top: 1.8rem;
+    box-shadow: 0px 0px 10px 5px #0e0e0e;
+}
+
+.bottle .Riesling {
+    width: 80%;
+    height: 330px;
+    margin: 2.5rem 10%;
+    cursor: pointer;
+}
+
+.bcontent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.b1content {
+    width: 20%;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: darkred;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width:1024px) {
+    .various a {
+        font-size: 1.2rem;
+        margin: 0 4.0rem;
+        padding-top: 0rem;
+    }
+
+    .variety {
+        height: 300px;
+    }
+
+    .bottle {
+        margin-top: 1.0rem;
+        height: 300px;
+        background: #161616;
+        transition: .3s;
+    }
+
+    .bottle:hover {
+        height: 300px;
+        margin-top: 1.8rem;
+        box-shadow: 0px 0px 10px 5px #0e0e0e;
+    }
+
+    .bottle .Riesling {
+        height: 220px;
+        margin: 2.5rem 10%;
+    }
+
+    .b1content {
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+        color: white;
+    }
+
+    .price {
+        font-size: 1.0rem;
+        color: darkred;
+        margin-top: 0.3rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .section2 {
+        min-height: 90vh;
+    }
+
+    .product {
+        font-size: 2.2rem;
+        padding: 1.5rem 0;
+    }
+
+    .various a {
+        font-size: 1.0rem;
+        margin: 0 3.0rem;
+        padding-top: 0rem;
+    }
+
+    .variety {
+        height: 240px;
+    }
+
+    .bottle {
+        height: 240px;
+        background: #161616;
+        transition: .3s;
+    }
+
+    .bottle:hover {
+        height: 250px;
+        box-shadow: 0px 0px 10px 5px #0e0e0e;
+    }
+
+    .bottle .Riesling {
+        height: 170px;
+        margin: 2.5rem 10%;
+    }
+
+    .b1content {
+        margin-top: 1.5rem;
+        font-size: 1.0rem;
+        color: white;
+    }
+
+    .price {
+        font-size: 0.9rem;
+        color: darkred;
+        margin-top: 0.3rem;
+        margin-bottom: 0rem;
+    }
+}
+
+@media screen and (max-width:426px) {
+
+    .merchant {
+        min-height: auto;
+    }
+
+    .various a {
+        font-size: 1.0rem;
+        margin: 0 1.0rem;
+        padding-top: 0rem;
+    }
+
+    .variety {
+        height: 160px;
+    }
+
+    .bottle {
+        height: 160px;
+        background: #161616;
+        transition: .3s;
+    }
+
+    .bottle:hover {
+        height: 170px;
+        box-shadow: 0px 0px 10px 5px #0e0e0e;
+    }
+
+    .bottle .Riesling {
+        height: 100px;
+        margin: 2.5rem 10%;
+    }
+
+    .b1content {
+        margin-top: 1.5rem;
+        font-size: 0.8rem;
+        color: white;
+    }
+
+    .price {
+        font-size: 0.7rem;
+        color: darkred;
+        margin-top: 0.3rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .various a {
+        font-size: 0.8rem;
+        margin: 0 1.0rem;
+        padding-top: 0rem;
+    }
+
+    .variety {
+        height: 150px;
+    }
+
+    .bottle {
+        height: 150px;
+        background: #161616;
+        transition: .3s;
+    }
+
+    .bottle:hover {
+        height: 160px;
+        box-shadow: 0px 0px 10px 5px #0e0e0e;
+    }
+
+    .bottle .Riesling {
+        height: 80px;
+        margin: 2.5rem 10%;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .various a {
+        font-size: 0.4rem;
+        margin: 0 0.8rem;
+        padding-top: 0rem;
+    }
+
+    .variety {
+        height: 130px;
+    }
+
+    .bottle {
+        height: 130px;
+        background: #161616;
+        transition: .3s;
+    }
+
+    .bottle:hover {
+        height: 135px;
+        box-shadow: 0px 0px 10px 5px #0e0e0e;
+    }
+
+    .bottle .Riesling {
+        height: 60px;
+        margin: 2.5rem 10%;
+    }
+
+    .b1content {
+        margin-top: 1.5rem;
+        font-size: 0.6rem;
+        color: white;
+    }
+
+    .price {
+        font-size: 0.7rem;
+        color: darkred;
+        margin-top: 0.3rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.section3 {
+    min-height: 90vh;
+    background: #0e0e0e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.todle {
+    width: 45%;
+    height: 550px;
+    background-image: url("pf1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.todle1 {
+    width: 37%;
+    height: 550px;
+    background-image: url("Wite\ wine.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.kost1 {
+    background-image: url("Red\ wine.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.kost {
+    background-image: url("Excelent.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.solet {
+    color: antiquewhite;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 3rem;
+    margin-left: 10%;
+}
+
+.sigma1 {
+    color: white;
+    font-size: 3.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0.5rem;
+    margin-left: 10%;
+}
+
+.dockel {
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1.5rem;
+    margin-left: 11%;
+    width: 30rem;
+}
+
+ul {
+    font-size: 1.5rem;
+    margin-left: 15%;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+    color: white;
+
+}
+
+ul li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.norway {
+    font-size: 1.5rem;
+    padding: 0.5rem 2.5rem;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .3s;
+    text-decoration: none;
+    margin-left: 11%;
+}
+
+.norway:hover {
+    color: #00abf0;
+    border: 2px solid #00abf0;
+}
+
+@media screen and (max-width:1440px) {
+    .section3 {
+        padding-top: 4.5rem;
+    }
+
+    .kost1,
+    .kost {
+        margin-bottom: 2.0rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .section3 {
+        padding-top: 1.5rem;
+    }
+
+    .todle {
+        width: 50%;
+        height: 450px;
+    }
+
+    .todle1 {
+        width: 42%;
+        height: 450px;
+    }
+
+    .solet {
+        font-size: 1.3rem;
+        margin-top: 2rem;
+
+    }
+
+    .sigma1 {
+        font-size: 2.8rem;
+    }
+
+    .dockel {
+        font-size: 1.0rem;
+        width: 25rem;
+    }
+
+    ul {
+        font-size: 1.2rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .norway {
+        font-size: 1.2rem;
+    }
+
+    .kost1,
+    .kost {
+        margin-bottom: 1.8rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .section3 {
+        padding-top: 1.2rem;
+    }
+
+    .todle {
+        width: 50%;
+        height: 450px;
+    }
+
+    .todle1 {
+        width: 42%;
+        height: 450px;
+    }
+
+    .solet {
+        font-size: 1.1rem;
+        margin-top: 1rem;
+    }
+
+    .sigma1 {
+        font-size: 2rem;
+    }
+
+    .dockel {
+        font-size: 1.0rem;
+        width: 20rem;
+    }
+
+    .kost1,
+    .kost {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .section3 {
+        min-width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+        padding-top: 0rem;
+    }
+
+    .todle {
+        width: 100%;
+        height: 400px;
+    }
+
+    .todle1 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .kost1,
+    .kost {
+        margin-bottom: 0rem;
+    }
+
+
+    .dockel {
+        font-size: 1.0rem;
+        width: 20rem;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:376px) {
+
+    .todle,
+    .kost1 {
+        background-position: right;
+    }
+
+    .todle1,
+    .kost {
+        background-position: center;
+    }
+
+    .solet {
+        font-size: 1.1rem;
+        margin-top: 1.0rem;
+    }
+
+    .sigma1 {
+        font-size: 1.5rem;
+    }
+
+    .dockel {
+        font-size: 1.0rem;
+        width: 19rem;
+        text-shadow: 10px 1px 10px black;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .dockel {
+        font-size: 1.0rem;
+        width: 16rem;
+        text-shadow: 10px 1px 10px black;
+    }
+}
+
+.section4 {
+    min-height: 110vh;
+    background-image: url(fire\ bolt1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.globel {
+    width: 50%;
+    height: auto;
+    margin-left: 1.5rem;
+}
+
+.pick1 {
+    color: white;
+    font-size: 2.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0.8rem;
+    margin-left: 1.8rem;
+}
+
+.picture {
+    width: 60%;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0.9rem;
+}
+
+.pcot {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: .5s;
+    outline: 2px solid black;
+}
+
+.denim1 {
+    background-image: url("p1.png");
+    background-size: cover;
+}
+
+.denim2 {
+    background-image: url("https://th.bing.com/th/id/OIP.98tiVhvT_p9BxFq7REdkqwAAAA?pid=ImgDet&rs=1");
+    background-size: cover;
+}
+
+.denim3 {
+    background-image: url("https://th.bing.com/th/id/OIP.6nBUidCp-enI_FJWXGn2JAHaHa?pid=ImgDet&rs=1");
+    background-size: cover;
+}
+
+
+.pcot:hover {
+    width: 140px;
+    height: 140px;
+    box-shadow: 0 0 10px 13px #161616;
+}
+
+.namedot {
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 1.8rem;
+    margin-top: 1.0rem;
+
+}
+
+.locate {
+    color: white;
+    font: 1.0rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 1.8rem;
+}
+
+.descp {
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 1.6rem;
+    margin-top: 1.0rem;
+    width: 70%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width:1440px) {
+    .section4 {
+        min-height: 60vw;
+        background-position: top;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .picture {
+        width: 70%;
+    }
+
+    .pcot {
+        width: 80px;
+        height: 80px;
+    }
+
+    .pcot:hover {
+        width: 120px;
+        height: 120px;
+    }
+
+    .pick1 {
+        font-size: 2.0rem;
+    }
+
+    .descp {
+        font-size: 1.0rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .picture {
+        width: 75%;
+        margin-top: 0rem;
+    }
+
+    .pcot {
+        width: 60px;
+        height: 60px;
+    }
+
+    .pcot:hover {
+        width: 100px;
+        height: 100px;
+    }
+
+    .pick1 {
+        margin-bottom: 0rem;
+    }
+
+    .namedot {
+        margin-top: 0rem;
+    }
+
+    .descp {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:426px) {
+
+    .section4 {
+        min-height: 70vh;
+    }
+
+    .globel {
+        width: 80%;
+    }
+
+    .pick1 {
+        font-size: 1.8rem;
+        text-shadow: 2px 0px 1px black;
+        font-weight: bold;
+    }
+
+    .picture {
+        width: 90%;
+        margin-top: 0rem;
+    }
+
+    .pcot {
+        width: 60px;
+        height: 60px;
+    }
+
+    .pcot:hover {
+        width: 90px;
+        height: 90px;
+    }
+
+    .descp,
+    .namedot,
+    .locate {
+        text-shadow: 2px 0px 1px black;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .pick1 {
+        font-size: 1.3rem;
+        text-shadow: 2px 0px 1px black;
+        font-weight: bold;
+    }
+
+    .descp,
+    .namedot,
+    .locate {
+        text-shadow: 2px 0px 1px black;
+        font-weight: bold;
+    }
+}
+
+.section5 {
+    min-height: 100vh;
+    background: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog {
+    color: white;
+    font-size: 3.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 5.0rem;
+}
+
+.mount {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2.0rem;
+    margin-bottom: 3.0rem;
+}
+
+.m1 {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.zack {
+    width: 80%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+.dop1 {
+    background-image: url(wize1.jpg);
+}
+
+.dop2 {
+    background-image: url(wize2.jpg);
+}
+
+.dop3 {
+    background-image: url(wizw3.jpg);
+}
+
+.dop4 {
+    background-image: url(wize4.jpg);
+}
+
+.jack1 {
+    width: 80%;
+    height: 50px;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.jack2 {
+    width: 80%;
+    height: 30px;
+    color: darkred;
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width:1024px) {
+    .blog {
+        margin-top: 4.0rem;
+    }
+
+    .mount {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 1.0rem;
+    }
+
+    .m1 {
+        width: 80%;
+        height: 400px;
+    }
+
+    .zack {
+        width: 80%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .section5 {
+        min-height: 100vw;
+    }
+
+    .mount {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 2.0rem;
+        height: 850px;
+    }
+
+    .m1 {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 1.0rem;
+    }
+}
+
+@media screen and (max-width:426px) {
+
+    .mount {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        margin-top: 2.0rem;
+        height: 90%
+    }
+
+    .m1 {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 1.0rem;
+    }
+
+    .blog {
+        font-weight: bold;
+        text-shadow: 2px 0px 1px black;
+    }
+
+    .jack1 {
+        height: 30px;
+    }
+
+    .jack2 {
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .blog {
+        margin-top: 3.0rem;
+    }
+
+    .zack {
+        width: 80%;
+        height: 250px;
+    }
+
+    .m1 {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 1.0rem;
+    }
+
+    .jack2 {
+        margin-top: 1.5rem;
+    }
+}

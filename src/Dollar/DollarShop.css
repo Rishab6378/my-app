@@ -1,0 +1,24 @@
+.ZXS11 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+@media screen and (max-width:1024px) {
+  .ZXS11 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .ZXS11 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:426px) {
+  .ZXS11 {
+    grid-template-columns: 1fr;
+  }
+}

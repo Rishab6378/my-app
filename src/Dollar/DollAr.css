@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.Q1 {
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Q2 {
+    width: 80%;
+    height: 90vh;
+    background-image: url(dollar1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.Q3 {
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Lactus {
+    font-size: 6.0rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: auto;
+    height: auto;
+    color: rgb(26, 34, 0);
+    text-shadow: 1px 0px 1px white;
+}
+
+.Locat {
+    font-style: italic;
+    color: rgb(26, 34, 0);
+}
+
+.Elenor {
+    width: 90%;
+    height: auto;
+    font-size: 1.0rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 0px 20px black;
+}
+
+@media screen and (max-width:1440px) {
+    .Lactus{
+        font-size: 5.3rem;
+    }
+}
+@media screen and (max-width:1024px) {
+    .Lactus {
+        font-size: 4.0rem;
+    }
+
+    .Elenor {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .Lactus {
+        font-size: 3.0rem;
+    }
+
+    .Elenor {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .Q1 {
+        min-height: 80vh;
+    }
+
+    .Q2 {
+        width: 90%;
+        height: 70vh;
+        background-image: url(dollar1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+    }
+
+    .Q4 {
+        font-size: 1.8rem;
+    }
+
+    .Lactus {
+        font-size: 2.0rem;
+        margin-left: 1rem;
+        width: 100%;
+        font-weight: bold;
+    }
+
+    .Elenor {
+        font-size: 0.5;
+        width: 130%;
+        margin-left: 6rem;
+        padding-left: 0rem;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .Elenor {
+        display: none;
+    }
+
+    .Lactus {
+        width: 100%;
+    }
+
+    .Q4 {
+        text-shadow: 2px 0px 1px black;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .Q4 {
+        color: black;
+    }
+
+    .Lactus {
+        margin-left: 2.5rem;
+    }
+}
+
+.Q7 {
+    width: 80%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.Q8 {
+    width: 100%;
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Q9 {
+    background-image: url(sralion1.jpg);
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.Q10 {
+    background-image: url(sralion2.jpg);
+}
+
+.Q11 {
+    background-image: url(sralion3.jpg);
+}
+
+.Q12 {
+    background-image: url(sralion4.jpg);
+}
+
+@media screen and (max-width:426px) {
+    .Q7 {
+        width: 90%;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .Q9 {
+        border-right: transparent;
+        border-bottom: transparent;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .Q8 {
+        background-position: center;
+    }
+}
+
+.Q13 {
+    min-height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.Q14 {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Q15 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(home-bnr_mobile2_533x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-right: 2px solid white;
+
+}
+
+.Q16 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(sralion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width:768px) {
+
+    .Q13 {
+        min-height: 90vh;
+    }
+
+    .Q14 {
+        height: 80vh;
+    }
+
+    .d2,
+    .Q16 {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .Q13 {
+        min-height: 150vh;
+    }
+
+    .Q14 {
+        width: 90%;
+        height: 140vh;
+        flex-direction: column;
+    }
+
+    .Q15 {
+        border-right: transparent;
+        border-bottom: 2px solid white;
+    }
+}
+
+.Q17 {
+    min-height: auto;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.Q18 {
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(26, 34, 0);
+    width: 80%;
+    text-align: center;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+
+}
+
+span {
+    color: darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+@media screen and (max-width:426px) {
+    .Q18 {
+        width: 90%;
+        font-size: 1.0rem;
+    }
+}
+
+.Q19 {
+    width: 100%;
+    background-color: white;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+.Q20 {
+    padding: 0.9rem 6%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+}
+
+@media screen and (max-width:1440px) {
+    .Q19 {
+        min-height: 30vh;
+    }
+
+    a {
+        font-size: 1.2rem;
+        padding: 0.5rem 5%;
+    }
+}
+
+@media screen and (max-width:786px) {
+    .Q20 {
+        font-size: 1.5rem;
+        padding: 0.5rem 8%;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .Q19 {
+        min-height: 20vh;
+    }
+
+    .Q20 {
+        padding: 0.5rem 10%;
+    }
+}

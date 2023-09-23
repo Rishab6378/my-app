@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.T1 {
+    min-height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.T2 {
+    width: 95%;
+    height: 107vh;
+    background-image: url(fxazmovhwsmzmjh4cqf3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.T3 {
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+span {
+    font-style: italic;
+    color: black;
+}
+
+@media screen and (max-width:1440px) {
+    .T2 {
+        height: 122vh;
+    }
+
+    .T1 {
+        min-height: 130vh;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .T1 {
+        min-height: 95vh;
+    }
+
+    .T2 {
+        height: 86vh;
+    }
+
+    .T3 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .T1 {
+        min-height: 75vh;
+    }
+
+    .T2 {
+        height: 65vh;
+    }
+
+    .T3 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .T1 {
+        min-height: 75vh;
+    }
+
+    .T2 {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .T3 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .T2 {
+        background-size: cover;
+        background-position: right;
+    }
+}
+
+.T4 {
+    min-height: 115vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.T5 {
+    width: 70%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.T6 {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.T7 {
+    color: black;
+    font-size: 0.9rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.T8 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+
+.T9 {
+    color: black;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 65%;
+    margin-bottom: 2rem;
+}
+
+.T10 {
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-weight: bold;
+    background-color: hsl(352.8deg 42.37% 88.43%);
+    padding: 0.5rem 11%;
+}
+
+.T10:hover {
+    background-color: hsl(352, 26%, 84%);
+}
+
+.T11 {
+    width: 90%;
+    height: 95vh;
+    background-image: url(OIP.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width:1440px) {
+    .T4 {
+        min-height: 130vh;
+    }
+
+    .T5 {
+        height: 110vh;
+    }
+
+    .T6 {
+        height: 110vh;
+    }
+
+    .T11 {
+        height: 110vh;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .T4 {
+        min-height: 120vh;
+    }
+
+    .T5 {
+        width: 80%;
+        height: 95vh;
+    }
+
+    .T6 {
+        width: 100%;
+        height: 95vh;
+    }
+
+    .T11 {
+        width: 80%;
+        height: 95vh;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .T4 {
+        min-height: 100vh;
+    }
+
+    .T5 {
+        width: 90%;
+        height: 80vh;
+    }
+
+    .T6 {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .T11 {
+        width: 80%;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .T4 {
+        min-height: auto;
+    }
+
+    .T5 {
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .T6 {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .T11 {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .T9 {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .T8 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .T8 {
+        font-size: 1.8rem;
+    }
+}
+
+.T12 {
+    width: 95%;
+    height: 107vh;
+    background-image: url(210726_BreadButter_Family_0078_WEB.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1440px) {
+    .T12 {
+        height: 122vh;
+    }
+
+    .T1 {
+        min-height: 130vh;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .T1 {
+        min-height: 95vh;
+    }
+
+    .T12 {
+        height: 86vh;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .T1 {
+        min-height: 75vh;
+    }
+
+    .T12 {
+        height: 65vh;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .T1 {
+        min-height: 75vh;
+    }
+
+    .T12 {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .T12 {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.T14 {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.T13 {
+    width: 90%;
+    height: 95vh;
+    background-image: url(docjer\ \(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width:1440px) {
+    .T14 {
+        height: 110vh;
+    }
+
+    .T13 {
+        height: 110vh;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .T14 {
+        width: 100%;
+        height: 95vh;
+    }
+
+    .T13 {
+        width: 80%;
+        height: 95vh;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .T14 {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .T13 {
+        width: 80%;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .T14 {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .T5 {
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .T13 {
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+.T15 {
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.T16 {
+    background-color: black;
+    color: white;
+    width: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 2rem 2.5rem;
+    font-size: 1.8rem;
+}
+
+@media screen and (max-width:1440px) {
+    .T16 {
+        background-color: black;
+        color: white;
+        width: 25%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        padding: 2.5rem 3rem;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .T16 {
+        width: 30%;
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .T16 {
+        width: 40%;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .T16 {
+        width: 90%;
+        font-size: 1.5rem;
+    }
+}
+
+.T17 {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 2.5rem;
+}
+
+.T18 {
+    background-image: url(b1ab8fac5148d2e411f84302f9498a9d.jpg);
+}

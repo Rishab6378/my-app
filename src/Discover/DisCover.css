@@ -1,0 +1,1229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background: white;
+}
+
+.x1 {
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.x2 {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgs1 {
+    background-image: url(still2-2_77a102bc024c91ba432e3fbb8e84d015.jpg);
+}
+
+.imgs2 {
+    background-image: url(shutterstock-571565734.webp);
+    background-position: right;
+}
+
+.imgs3 {
+    background-image: url(OIP.jpeg);
+}
+
+.imgs4 {
+    background-image: url(download.jpeg);
+}
+
+.imgs5 {
+    background-image: url(unnamed.jpg);
+    background-position: center;
+}
+
+.imgs6 {
+    background-image: url(5c2c375bd60bba2ee985f68f00596e70.jpg);
+}
+
+.imgs7 {
+    background-image: url(4c206c0f6095ab64aca7f3cd6d3e88657d7b2a51.jpg);
+    background-position: center;
+}
+
+.imgs8 {
+    background-image: url(R.jpeg);
+}
+
+.x3 {
+    min-height: auto;
+    background-color: hsl(0deg 0% 99.22%);
+}
+
+.span {
+    color: darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.x4 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6.5rem;
+    text-align: center;
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+}
+
+.x5 {
+    min-height: 100vh;
+    background-image: url(pexels-cátia-matos-1072179.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.x6 {
+    width: 55%;
+    height: auto;
+    margin-left: 5.5rem;
+}
+
+.x7 {
+    font-size: 5.5rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.x8 {
+    font-size: 1.5rem;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 0px 2px black;
+}
+
+@media screen and (max-width:1024px) {
+    .x7 {
+        font-size: 3.5rem;
+    }
+
+    .x8 {
+        font-size: 1.2rem;
+    }
+
+    .x1 {
+        min-height: auto;
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 0.5fr 0.5fr;
+    }
+
+    .x2 {
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .x2 {
+        width: 100%;
+        height: 150px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .x4 {
+        font-size: 5.5rem;
+    }
+
+    .x7 {
+        font-size: 2.9rem;
+    }
+
+    .x8 {
+        font-size: 1.0rem;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .x2 {
+        width: 100%;
+        height: 110px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .x4 {
+        font-size: 4.5rem;
+    }
+
+    .x7 {
+        font-size: 2.2rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .x8 {
+        font-size: 0.8rem;
+    }
+
+    .x5 {
+        min-height: 60vh;
+    }
+
+    .x6 {
+        width: 80%;
+        height: auto;
+        margin-left: 0.3rem;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .x4 {
+        font-size: 3.5rem;
+    }
+
+    .x7 {
+        font-size: 1.8rem;
+    }
+
+    .x2 {
+        width: 100%;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .x7 {
+        font-size: 1.5rem;
+    }
+
+    .x2 {
+        width: 100%;
+        height: 90px;
+    }
+}
+
+.x9 {
+    min-height: 70vh;
+    background-color: hsl(26.67deg 42.86% 95.88%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.x10 {
+    width: 100%;
+}
+
+.x11 {
+    font-size: 2.2rem;
+    width: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 20.5rem;
+}
+
+.x12 {
+    height: 300px;
+    width: 40%;
+    padding-top: 5.5rem;
+    text-align: left;
+}
+
+@media screen and (max-width:1440px) {
+    .x9 {
+        min-height: 100vh;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .x9 {
+        min-height: 90vh;
+    }
+
+    .x11 {
+        font-size: 1.8rem;
+        width: 50%;
+        margin-left: 11.5rem;
+    }
+
+    .x12 {
+        padding-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .x11 {
+        font-size: 1.5rem;
+        width: 60%;
+        margin-left: 5.5rem;
+    }
+
+    .x12 {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width:426px) {
+    .x11 {
+        font-size: 1.2rem;
+        width: 80%;
+        margin-left: 2.5rem;
+    }
+
+    .x12 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .x12 {
+        height: 310px;
+    }
+}
+
+@media screen and (max-width:321px) {
+
+    .x9 {
+        min-height: 100vh;
+    }
+
+    .x12 {
+        height: 380px;
+    }
+}
+
+.x13 {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(26.67deg 42.86% 95.88%);
+}
+
+.x14 {
+    width: 60%;
+    min-height: 40vh;
+    background-color: hsl(0deg 0% 99.22%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.x15 {
+    width: 32%;
+    height: 150px;
+    font-size: 1.8rem;
+    margin-left: 3.5rem;
+}
+
+.x16 {
+    width: 25%;
+    height: 490px;
+    background-image: url(R.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 10.5rem;
+}
+
+.x17 {
+    min-height: 100vh;
+    background-color: hsl(26.67deg 42.86% 95.88%);
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.x18 {
+    width: 60%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.x19 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.x20 {
+    width: 80%;
+    height: 60vh;
+}
+
+.x21 {
+    font-size: 1.5rem;
+    width: 50%;
+    margin-right: 8.0rem;
+    margin-top: -5.0rem;
+}
+
+.x22 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:1440px) {
+
+    .x17 {
+        min-height: 120vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .x18 {
+        height: 120vh;
+    }
+
+    .x19 {
+        height: 120vh;
+    }
+
+    .x20 {
+        height: 70vh;
+    }
+
+    .x22 {
+        height: 120vh;
+    }
+
+    .x16 {
+        width: 25%;
+        height: 420px;
+        top: 10.5rem;
+    }
+
+    .x13 {
+        min-height: 100vh;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .x20 {
+        height: 60vh;
+    }
+
+    .x21 {
+        font-size: 1.5rem;
+        width: 70%;
+        margin-right: 1.5rem;
+        margin-top: -5.0rem;
+    }
+
+    .x18 {
+        height: 100vh;
+    }
+
+    .x19 {
+        height: 100vh;
+    }
+
+    .x22 {
+        height: 100vh;
+    }
+
+    .x17 {
+        min-height: 100vh;
+    }
+
+    .x16 {
+        width: 30%;
+        height: 380px;
+        top: 10.5rem;
+    }
+
+    .x15 {
+        font-size: 1.5rem;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .x13 {
+        min-height: 90vh;
+    }
+
+    .x15 {
+        font-size: 1.2rem;
+        width: 34%;
+    }
+
+    .x20 {
+        height: 50vh;
+    }
+
+    .x21 {
+        font-size: 1.2rem;
+        width: 70%;
+        margin-right: 1.5rem;
+        margin-top: 0rem;
+    }
+
+    .x17 {
+        min-height: 100vh;
+    }
+
+    .x16 {
+        width: 40%;
+        height: 340px;
+        top: 7.5rem;
+    }
+
+    .x18 {
+        height: 90vh;
+    }
+
+    .x19 {
+        height: 90vh;
+    }
+
+    .x22 {
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width:426px) {
+
+    .x13 {
+        min-height: 80vh;
+    }
+
+
+    .x14 {
+        height: 60vh;
+        width: 80%;
+    }
+
+    .x15 {
+        font-size: 0.9rem;
+        width: 35%;
+        margin-left: 1.0rem;
+    }
+
+    .x16 {
+        width: 40%;
+        height: 280px;
+        top: 5.5rem;
+    }
+
+    .x18 {
+        width: 60%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .x20 {
+        margin-top: 1.5rem;
+        width: 100%;
+    }
+
+    .x21 {
+        font-size: 1.0rem;
+    }
+
+    .x17 {
+        min-height: auto;
+    }
+
+    .x19 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .x22 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .x20 {
+        height: 40vh;
+    }
+}
+
+.x23 {
+    background-color: hsl(26.67deg 42.86% 95.88%);
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.x24 {
+    width: 30%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x25 {
+    width: 80%;
+    height: 75vh;
+    background-image: url(berardenga-chianti-classico-riserva-header_02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.x26 {
+    width: 70%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.x27 {
+    color: black;
+    width: 100%;
+    height: auto;
+    font-size: 4.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.x28 {
+    width: 90%;
+    height: auto;
+    font-size: 1.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-left: 2.5rem;
+    padding-left: 2.5rem;
+    text-align: center;
+}
+
+@media screen and (max-width:1440px) {
+    .x23 {
+        min-height: 40vw;
+    }
+
+    .x26 {
+        min-height: 40vw;
+    }
+
+    .x24 {
+        min-height: 40vw;
+    }
+
+    .x25 {
+        min-height: 90vh;
+    }
+
+
+    .x27 {
+        font-size: 4.3rem;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .x23 {
+        min-height: 50vw;
+    }
+
+    .x26 {
+        min-height: 50vw;
+    }
+
+    .x27 {
+        font-size: 2.8rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .x28 {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        width: 90%;
+        margin-left: 0rem;
+    }
+
+    .x24 {
+        min-height: 50vw;
+    }
+
+    .x25 {
+        min-height: 75vh;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .x23 {
+        min-height: 50vw;
+    }
+
+    .wine,
+    .x26 {
+        min-height: 50vw;
+    }
+
+    .x27 {
+        font-size: 2.0rem;
+    }
+
+    .x28 {
+        font-size: 1.0rem;
+        margin-top: 0.8rem;
+        width: 90%;
+        padding-left: 1.2rem;
+    }
+
+    .x25 {
+        min-height: 68vh;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .x23 {
+        min-height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .x24 {
+        width: 100%;
+    }
+
+    .x26 {
+        height: 80vh;
+        width: 100%;
+    }
+
+    .x27 {
+        font-size: 1.8rem;
+        width: 100%;
+        padding-left: 0rem;
+    }
+
+    .x28 {
+        margin: 0;
+        padding-top: 0rem;
+        padding-left: 1.3rem;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .x26 {
+        height: 90vh;
+        width: 100%;
+    }
+
+    .x27 {
+        font-size: 1.3rem;
+        width: 100%;
+        padding-left: 1.2rem;
+    }
+
+    .x28 {
+        margin: 0;
+        padding-top: 1.2rem;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .x26 {
+        height: 90vh;
+        width: 100%;
+    }
+
+    .x27 {
+        font-size: 1.0rem;
+    }
+
+    .x28 {
+        font-size: 0.9rem;
+    }
+}
+
+.x29 {
+    background-color: hsl(26.67deg 42.86% 95.88%);
+    min-height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x30 {
+    border-top: 3px solid indigo;
+    border-left: 2px solid indigo;
+    background-color: white;
+    width: 48%;
+    height: 100vh;
+    border-radius: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.x31 {
+    width: 80%;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 0.4rem;
+}
+
+.x32 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    width: 50%;
+    margin-bottom: 0.9rem;
+}
+
+.x33 {
+    margin-right: 15rem;
+}
+
+.x34 {
+    margin-right: 17rem;
+}
+
+.x35 {
+    margin-right: 19rem;
+}
+
+.x36 {
+    margin-right: 20rem;
+}
+
+.x37 {
+    margin-right: 20rem;
+}
+
+.x38 {
+    margin-right: 19rem;
+}
+
+.x39 {
+    margin-right: 17rem;
+}
+
+.x40 {
+    margin-right: 14.5rem;
+}
+
+.x41 {
+    margin-right: 11.5rem;
+}
+
+@media screen and (max-width:1440px) {
+
+    .x29 {
+        background-color: hsl(26.67deg 42.86% 95.88%);
+        min-height: 120vh;
+        border: 2px solid gold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .x30 {
+        width: 52%;
+        height: 120vh;
+        border-radius: 100vh;
+    }
+
+    .x31 {
+        font-size: 1.1rem;
+    }
+
+    .x32 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .x29 {
+        min-height: 100vh;
+    }
+
+    .x30 {
+        width: 60%;
+        height: 100vh;
+        border-radius: 100vh;
+    }
+
+    .x31 {
+        font-size: 1.3rem;
+        margin-top: 2.9rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .x32 {
+        font-size: 1.0rem;
+    }
+
+    .x33 {
+        margin-right: 14rem;
+    }
+
+    .x34 {
+        margin-right: 15rem;
+    }
+
+    .x35 {
+        margin-right: 15.3rem;
+    }
+
+    .x36 {
+        margin-right: 15.5rem;
+    }
+
+    .x37 {
+        margin-right: 15rem;
+    }
+
+    .x38 {
+        margin-right: 13rem;
+    }
+
+    .x39 {
+        margin-right: 10.5rem;
+    }
+
+    .x40 {
+        margin-right: 7rem;
+    }
+
+    .x41 {
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .x29 {
+        min-height: 75vh;
+    }
+
+    .x30 {
+        width: 60%;
+        height: 80vh;
+    }
+
+    .x31 {
+        font-size: 1.0rem;
+        margin-top: 2.9rem;
+        margin-bottom: 0rem;
+    }
+
+    .x32 {
+        font-size: 0.8rem;
+    }
+
+    .x33 {
+        margin-right: 9.8rem;
+    }
+
+    .x34 {
+        margin-right: 11rem;
+    }
+
+    .x35 {
+        margin-right: 11.5rem;
+    }
+
+    .x36 {
+        margin-right: 11.5rem;
+    }
+
+    .x37 {
+        margin-right: 11rem;
+    }
+
+    .x38 {
+        margin-right: 9.8rem;
+    }
+
+    .x39 {
+        margin-right: 7.9rem;
+    }
+
+    .x40 {
+        margin-right: 5.0rem;
+    }
+
+    .x41 {
+        margin-right: 0.5rem;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .x30 {
+        width: 95%;
+        height: 65vh;
+    }
+
+    .x31 {
+        font-size: 0.5rem;
+        margin-top: 2.5rem;
+        margin-bottom: 0rem;
+    }
+
+    .x32 {
+        margin-bottom: 0.5rem;
+    }
+
+    .x33 {
+        margin-right: 8.8rem;
+    }
+
+    .x34 {
+        margin-right: 10rem;
+    }
+
+    .x35 {
+        margin-right: 10.5rem;
+    }
+
+    .x36 {
+        margin-right: 10.5rem;
+    }
+
+    .x37 {
+        margin-right: 10.5rem;
+    }
+
+    .x38 {
+        margin-right: 9.5rem;
+    }
+
+    .x39 {
+        margin-right: 7.5rem;
+    }
+
+    .x40 {
+        margin-right: 5.0rem;
+    }
+
+    .x41 {
+        margin-right: 0.1rem;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .x33 {
+        margin-right: 8.8rem;
+    }
+
+    .x34 {
+        margin-right: 9.5rem;
+    }
+
+    .x35 {
+        margin-right: 9.5rem;
+    }
+
+    .x36 {
+        margin-right: 9.5rem;
+    }
+
+    .x37 {
+        margin-right: 9.5rem;
+    }
+
+    .x38 {
+        margin-right: 8.8rem;
+    }
+
+    .x39 {
+        margin-right: 7.0rem;
+    }
+
+    .x40 {
+        margin-right: 4.0rem;
+    }
+
+    .x41 {
+        margin-right: -1rem;
+    }
+}
+
+@media screen and (max-width:321px) {
+
+    .x30 {
+        width: 95%;
+        height: 70vh;
+    }
+
+    .x33 {
+        margin-right: 7.5rem;
+    }
+
+    .x34 {
+        margin-right: 8.0rem;
+    }
+
+    .x35 {
+        margin-right: 8.0rem;
+    }
+
+    .x36 {
+        margin-right: 8rem;
+    }
+
+    .x37 {
+        margin-right: 8rem;
+    }
+
+    .x38 {
+        margin-right: 7.5rem;
+    }
+
+    .x39 {
+        margin-right: 7rem;
+    }
+
+    .x40 {
+        margin-right: 5rem;
+    }
+
+    .x41 {
+        margin-right: 1.8rem;
+    }
+
+    .x32 {
+        margin-bottom: 0.5rem;
+    }
+}
+
+.x42 {
+    min-height: auto;
+    background-color: hsl(26.67deg 42.86% 95.88%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.x45 {
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-top: 1.8rem;
+}
+
+.x44 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.x46 {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 2.2rem;
+    margin-left: 1.8rem;
+    width: 90%;
+}
+
+p {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1440px) {
+    .x42 {
+        min-height: 85vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .x44 {
+        font-size: 2.2rem;
+    }
+
+    .x46 {
+        font-size: 1.0rem;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .x45 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .x46 {
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+        margin-left: 1.0rem;
+    }
+
+    .x44 {
+        font-size: 2.0rem;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .x46 {
+        width: 100%;
+        margin-left: 0rem;
+    }
+}
+
+.x43 {
+    background-image: linear-gradient(to right, hsl(26.67deg 42.86% 95.88%), rgb(64, 60, 60));
+}
+
+.x47 {
+    background-image: linear-gradient(to right, rgb(64, 60, 60), hsl(26.67deg 42.86% 95.88%));
+}
